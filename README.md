@@ -1,2 +1,3 @@
 # system architecture
 documentation of a system
+give me a documentation ofa smart attendance system with the following lecturer features sign in; staff no ,password, register; email, full name ,staff number, password .Lecturer features ;view attendance report, download qr, view allocated students and add units. student features log in details; email ,password. register; full name ,registration number ,email, password , view history or report, scan qr code, biometric or face recognition, confirm attendance and view their progresss make it proffesional
