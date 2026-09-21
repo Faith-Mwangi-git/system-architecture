@@ -1,6 +1,6 @@
 # Smart Attendance System
 
-A secure, web-based attendance management platform that helps lecturers create and monitor attendance sessions while allowing students to confirm attendance through QR codes and optional biometric or facial verification.
+A secure, mobile app-based attendance management platform that helps lecturers create and monitor attendance sessions while allowing students to confirm attendance through QR codes, biometric or facial verification.
 
 
 1. Overview
@@ -12,8 +12,7 @@ The Smart Attendance System replaces manual attendance registers with a centrali
 1. Provide secure registration and sign-in for lecturers and students.
 2. Allow lecturers to manage units and their allocated students.
 3. Enable lecturers to create attendance sessions and generate unique QR codes.
-4. Allow students to record attendance by scanning a valid QR code.
-5. Support optional biometric or facial verification as an additional check.
+4. Allow students to record attendance by scanning a valid QR code,biometric or facial verification.
 6. Prevent duplicate, expired, or unauthorised attendance submissions.
 7. Provide attendance history, reports, and progress summaries.
 8. Reduce paperwork and improve the reliability of institutional attendance records.
@@ -130,7 +129,7 @@ Creates sessions, controls session state, applies time windows, and generates si
 
 ### Verification module
 
-Performs QR validation and, where legally and operationally approved, biometric or facial verification. Biometric verification should be optional and must have a documented fallback process.
+Performs QR validation, biometric and facial verification, where legally and operationally approved.
 
 ### Reporting module
 
@@ -140,7 +139,7 @@ Calculates attendance summaries, provides filtering and exports, and exposes stu
 
 Optionally sends email or in-app notifications for account verification, password reset, session events, and attendance issues.
 
-## 13. Future Enhancements
+## 13. Enhancements
 
 - Administrator dashboard and approval workflows.
 - Bulk import of students, lecturers, units, and allocations.
@@ -154,4 +153,4 @@ Optionally sends email or in-app notifications for account verification, passwor
 
 ## Conclusion
 
-The Smart Attendance System should provide a dependable attendance record without making classroom check-in unnecessarily difficult. QR attendance offers a fast primary workflow, while biometric or facial verification should remain a carefully governed optional layer. Clear permissions, auditable changes, privacy controls, and consistent reporting are essential to making the system suitable for real academic use.
+The Smart Attendance System should provide a dependable attendance record without making classroom check-in unnecessarily difficult. QR, biometric and facial verification attendance offers a fast primary workflow. Clear permissions, auditable changes, privacy controls, and consistent reporting are essential to making the system suitable for real academic use.
