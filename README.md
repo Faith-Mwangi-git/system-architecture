@@ -1,18 +1,18 @@
 # Smart Attendance System
 
-A secure, mobile app-based attendance management platform that helps lecturers create and monitor attendance sessions while allowing students to confirm attendance through QR codes, biometric or facial verification.
+A secure, mobile app-based attendance management platform that helps lecturers create and monitor attendance sessions while allowing students to confirm attendance through QR codes, biometric, facial verification or scanning student id.
 
 
 1. Overview
 
-The Smart Attendance System replaces manual attendance registers with a centralised digital platform. Lecturers can manage units, allocate students, create attendance sessions, display or download session QR codes, and review attendance reports. Students can register, join their allocated units, verify their identity, scan a session QR code, confirm attendance, and monitor their attendance history and academic progress.
+<!-- The Smart Attendance System replaces manual attendance registers with a centralised digital platform. Lecturers can manage units, allocate students, create attendance sessions, display or download session QR codes, and review attendance reports. Students can register, join their allocated units, verify their identity, scan a session QR code, confirm attendance, and monitor their attendance history and academic progress. -->
 
 2. Objectives
 
 1. Provide secure registration and sign-in for lecturers and students.
 2. Allow lecturers to manage units and their allocated students.
 3. Enable lecturers to create attendance sessions and generate unique QR codes.
-4. Allow students to record attendance by scanning a valid QR code,biometric or facial verification.
+4. Allow students to record attendance by scanning a valid QR code,biometric, facial verification or scan student id.
 6. Prevent duplicate, expired, or unauthorised attendance submissions.
 7. Provide attendance history, reports, and progress summaries.
 8. Reduce paperwork and improve the reliability of institutional attendance records.
@@ -65,6 +65,7 @@ Student registration requires:
 - Full name
 - Registration number
 - Email address
+- Student id
 - Password
 
 The system should validate that the email address and registration number are unique. Student records should be linked to an approved institutional or unit allocation record where possible.
@@ -81,7 +82,7 @@ Students sign in using:
 - View and update their profile.
 - View allocated units.
 - Scan an active attendance QR code.
-- Complete biometric or facial verification when enabled.
+- Complete biometric,scanning id or facial verification when enabled.
 - Confirm attendance for a valid session.
 - View attendance history and attendance reports.
 - View unit-level attendance percentages and progress summaries.
@@ -129,7 +130,7 @@ Creates sessions, controls session state, applies time windows, and generates si
 
 ### Verification module
 
-Performs QR validation, biometric and facial verification, where legally and operationally approved.
+Performs QR validation,scanning id, biometric and facial verification, where legally and operationally approved.
 
 ### Reporting module
 
@@ -152,5 +153,4 @@ Optionally sends email or in-app notifications for account verification, passwor
 - Native mobile applications with secure device registration.
 
 ## Conclusion
-
-The Smart Attendance System should provide a dependable attendance record without making classroom check-in unnecessarily difficult. QR, biometric and facial verification attendance offers a fast primary workflow. Clear permissions, auditable changes, privacy controls, and consistent reporting are essential to making the system suitable for real academic use.
+The Smart Attendance System should provide a dependable attendance record without making classroom check-in unnecessarily difficult. QR, biometric,scanning id and facial verification attendance offers a fast primary workflow. Clear permissions, auditable changes, privacy controls, and consistent reporting are essential to making the system suitable for real academic use.
